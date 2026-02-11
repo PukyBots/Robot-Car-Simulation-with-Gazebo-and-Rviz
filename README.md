@@ -138,5 +138,4 @@ diff_drive_robot/
 
 ## 👨‍💻 Author
 
-**Akhiljith Gigi**
-* GitHub: [@akhiljithvg](https://github.com/akhiljithvg)
+**Pulkit Garg**
