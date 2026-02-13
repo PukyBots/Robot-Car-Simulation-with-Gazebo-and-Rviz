@@ -76,9 +76,9 @@ ros2 launch diff_drive_robot mapping.launch.py use_sim_time:=true
 
 ### 3. Autonomous Navigation
 
-To run the full system, you need 4 separate terminals open at the same time.
+To run the full system, you need to type the following in the terminal-
 
-### Terminal 1: Simulation (Gazebo)
+### Terminal: Simulation (Gazebo)
 
 ```bash
 cd ~/ros2_ws
