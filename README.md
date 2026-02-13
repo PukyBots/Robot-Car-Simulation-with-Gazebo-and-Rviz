@@ -1,18 +1,18 @@
-# 🤖 Autonomous Mobile Robot (ROS 2 Jazzy)
+# Autonomous Mobile Robot (ROS 2 Jazzy)
 
 A complete autonomous differential drive robot built with **ROS 2 Jazzy**. This project demonstrates Simulation, Simultaneous Localization and Mapping (SLAM), and Autonomous Navigation using the Nav2 stack.
 
 
-## ✨ Features
+## Features
 
-* **🕹️ Teleoperation:** Manual control using keyboard teleop.
-* **🗺️ SLAM (Simultaneous Localization & Mapping):** Generates 2D occupancy grid maps using `slam_toolbox`.
-* **🧠 Autonomous Navigation:** Fully integrated with the **Nav2** stack for path planning and obstacle avoidance.
-* **👁️ Perception:** Equipped with Lidar and Camera sensors (simulated in Gazebo).
+* ** Teleoperation:** Manual control using keyboard teleop.
+* **SLAM (Simultaneous Localization & Mapping):** Generates 2D occupancy grid maps using `slam_toolbox`.
+* **Autonomous Navigation:** Fully integrated with the **Nav2** stack for path planning and obstacle avoidance.
+* **Perception:** Equipped with Lidar and Camera sensors (simulated in Gazebo).
 
 ---
 
-## 🛠️ Prerequisites
+## Prerequisites
 
 * **OS:** Ubuntu 24.04 (Noble Numbat)
 * **ROS 2 Distro:** Jazzy Jalisco
@@ -26,7 +26,7 @@ sudo apt install ros-jazzy-navigation2 ros-jazzy-nav2-bringup ros-jazzy-slam-too
 
 ---
 
-## 🚀 Installation
+## Installation
 
 1.  **Clone the repository:**
     ```bash
@@ -44,7 +44,7 @@ sudo apt install ros-jazzy-navigation2 ros-jazzy-nav2-bringup ros-jazzy-slam-too
 
 ---
 
-## 🏃 Usage Guide
+## Usage Guide
 
 ### 1. Launch Simulation
 
@@ -94,7 +94,7 @@ ros2 launch diff_drive_robot bringup.launch.py
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```bash
 diff_drive_robot/
@@ -108,6 +108,6 @@ diff_drive_robot/
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Pulkit Garg**
