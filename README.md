@@ -5,7 +5,7 @@ A complete autonomous differential drive robot built with **ROS 2 Jazzy**. This 
 
 ## Features
 
-* ** Teleoperation:** Manual control using keyboard teleop.
+* **Teleoperation:** Manual control using keyboard teleop.
 * **SLAM (Simultaneous Localization & Mapping):** Generates 2D occupancy grid maps using `slam_toolbox`.
 * **Autonomous Navigation:** Fully integrated with the **Nav2** stack for path planning and obstacle avoidance.
 * **Perception:** Equipped with Lidar and Camera sensors (simulated in Gazebo).
