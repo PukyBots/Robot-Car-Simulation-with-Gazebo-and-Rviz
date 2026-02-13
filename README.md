@@ -16,7 +16,7 @@ A complete autonomous differential drive robot built with **ROS 2 Jazzy**. This 
 
 * **OS:** Ubuntu 24.04 (Noble Numbat)
 * **ROS 2 Distro:** Jazzy Jalisco
-* **Simulator:** Gazebo Harmony
+* **Simulator:** Gazebo Harmonic
 
 ### Dependencies
 Install the required ROS 2 packages:
