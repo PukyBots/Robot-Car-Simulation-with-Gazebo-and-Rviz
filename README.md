@@ -2,13 +2,6 @@
 
 A complete autonomous differential drive robot built with **ROS 2 Jazzy**. This project demonstrates Simulation, Simultaneous Localization and Mapping (SLAM), and Autonomous Navigation using the Nav2 stack.
 
----
-
-## 📸 Screenshots
-![Gazebo ](./images/gazebo.png)
-![Navigation ](./images/simulation_screenshot.png)
-
----
 
 ## ✨ Features
 
@@ -39,7 +32,7 @@ sudo apt install ros-jazzy-navigation2 ros-jazzy-nav2-bringup ros-jazzy-slam-too
     ```bash
     mkdir -p ~/ros2_ws/src
     cd ~/ros2_ws/src
-    git clone https://github.com/akhiljithvg/Autonomous-Navigation-Robot.git
+    git clone https://github.com/PukyBots/Autonomous-Navigation-Robot.git
     ```
 
 2.  **Build the workspace:**
