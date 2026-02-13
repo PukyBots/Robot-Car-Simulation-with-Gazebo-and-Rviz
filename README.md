@@ -32,7 +32,7 @@ sudo apt install ros-jazzy-navigation2 ros-jazzy-nav2-bringup ros-jazzy-slam-too
     ```bash
     mkdir -p ~/ros2_ws/src
     cd ~/ros2_ws/src
-    git clone https://github.com/PukyBots/Autonomous-Navigation-Robot.git
+    git clone https://github.com/PukyBots/Autonomous-Navigation-Robot.git](https://github.com/PukyBots/Robot-Car-Simulation-with-Gazebo-and-Rviz.git
     ```
 
 2.  **Build the workspace:**
@@ -82,29 +82,8 @@ To run the full system, you need 4 separate terminals open at the same time.
 
 ```bash
 cd ~/ros2_ws
-export GZ_SIM_RESOURCE_PATH=~/ros2_ws/src/diff_drive_robot/assets/gazebo_models:$GZ_SIM_RESOURCE_PATH
 source install/setup.bash
-ros2 launch diff_drive_robot robot.launch.py use_sim_time:=true
-```
-### Terminal 2: The "Bridge" (Crucial Fix)
-This forces the missing link (base_footprint) to exist so Navigation doesn't crash. Keep this running!
-
-```
-ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 base_link base_footprint --ros-args -p use_sim_time:=true
-```
-
-### Terminal 3: Navigation Stack
-This runs the "brain" of the robot.
-```
-source ~/ros2_ws/install/setup.bash
-ros2 launch nav2_bringup bringup_launch.py map:=/home/akhiljith/ros2_ws/src/Autonomous-Navigation-Robot/maps/my_map.yaml use_sim_time:=true
-```
-(Note: Replace /home/akhiljith/my_map.yaml with the actual path to your map file).
-
-### Terminal 4: RViz (Visualization)
-This is your control screen.
-```
-ros2 run rviz2 rviz2 -d /opt/ros/jazzy/share/nav2_bringup/rviz/nav2_default_view.rviz --ros-args -p use_sim_time:=true
+ros2 launch diff_drive_robot bringup.launch.py
 
 ```
 
